@@ -1,0 +1,15 @@
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+<script>
+var usecase1 = {"a1": { "b1": { "c1": "d1" }}};
+console.log("Output for key : a1,b1,c1 is " ,_.get(usecase1, 'a1.b1.c1'));
+
+var usecase2 = {"x1":{"y1":{"z1":"a1"}}};
+console.log("Output for key : x1, y1, z1 is ",_.get(usecase2, 'x1.y1.z1'));
+</script>
+</head>
+<body>
+<h2> Challenge 3 :  To see the execution press F12 and in the developer tool windows look at console tab.</h2>
+</body>
+</html>
