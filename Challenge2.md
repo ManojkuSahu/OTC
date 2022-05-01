@@ -1,4 +1,3 @@
-# OTC
 Steps for Challenge#2
 
 	0) Create an AWS EC2 instance
