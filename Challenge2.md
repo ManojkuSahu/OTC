@@ -1,5 +1,7 @@
 # OTC
-Create an AWS EC2 instance
+Steps for Challenge#2
+
+	0) Create an AWS EC2 instance
 
 	1) enabled the instance Meta-data
 	
